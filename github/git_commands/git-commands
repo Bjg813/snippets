@@ -1,13 +1,18 @@
 esc:wq //escapes out of vi
 
-// Clone from repositroy to local machine
-cd ~
-git clone http://<username>@<Bitbucket Server URL>/scm/<project key>/website.git
+// Push updated files and directories to exisitng repository
+cd excisting-project
+git add .
+git status
+git commit -m "What you did"
+git push
+git status
 
-// Push to repository from local machine
+// Create a new repository and push directories and files
 cd existing-project
 git init
 git add --all
+git status
 git commit -m "Initial Commit"
 git remote add origin http://<Bitbucket Server URL>/scm/tis/website.git
 git push -u origin master
