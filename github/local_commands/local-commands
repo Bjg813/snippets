@@ -1,0 +1,8 @@
+// Add a directory in repository
+mkdir -p parentdir/childdir/etc //Makes a new directory and can name subdirectories
+
+// Move files into directories
+cd /* directory you want to move file into */
+pwd /* Print the directory you are in/Copy file path */
+cd /* Files you want to move */
+mv /* file or . */ /* Copied file path */ 

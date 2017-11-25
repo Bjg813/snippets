@@ -1,0 +1,33 @@
+esc:wq //escapes out of vi
+
+// Clone from repositroy to local machine
+cd ~
+git clone http://<username>@<Bitbucket Server URL>/scm/<project key>/website.git
+
+// Push to repository from local machine
+cd existing-project
+git init
+git add --all
+git commit -m "Initial Commit"
+git remote add origin http://<Bitbucket Server URL>/scm/tis/website.git
+git push -u origin master
+
+// Remove files from repository
+git rm -r --cached .
+git add .
+git status
+git push 
+git commit -m "Add a comment"
+git status
+
+// Pull from repository
+git pull 
+
+// Abort: "Please commit your changes or stash them before you merge."
+git reset --hard
+git pull
+git status
+
+
+
+
