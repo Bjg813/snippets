@@ -33,6 +33,15 @@ git reset --hard
 git pull
 git status
 
+// Add a README.md file to repository
+cd existing-project
+touch README.md
+git status
+git add .
+git commit -m "Added README.md file"
+git push
+git status
+
 
 
 
