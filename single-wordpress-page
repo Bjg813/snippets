@@ -1,8 +1,0 @@
-single.php is a: Template File--Meaning there is no content in it, all content is sotred in a seperate template file i.e. "content.php"
-
-Template Parts:
-
-		content-none.php = Displays when there is no contenet to display
-		content-page.php = Displays when we want to display page content
-		content-search.php = Returns search results
-		content.php = Used for single post, index and archive pages 
