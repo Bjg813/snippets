@@ -9,6 +9,7 @@ git push
 git status
 
 // Create a new repository and push directories and files
+Go to Github and create a repository
 cd existing-project
 git init
 git add --all
