@@ -1,0 +1,39 @@
+// Work on an another persons repository
+cd to directory you want to push to
+git clone /* persons repository */
+cd to just cloned directory
+git status
+git pull
+git status
+
+// Create new Wordpress local site
+Click '+' button bottom left corner
+Enter name of new site 'website.dev'
+Make sure Root is connected to cloned directory on computer
+Go to extras
+Click '+'
+Click Wordpress
+Enter name of site
+Enter 'wp_'
+Enter database name: 'wp_nameofsite'
+Click create
+
+// Insert new database 
+Open up Mamp Pro
+Click WebStart
+Go to PHP MyAdmin
+Click on database you want to use
+Go to bottom of database and click all
+Click drop down menu and click 'drop'
+Click ok after prompt says "are you sure"
+Import new database
+Choose File
+Click 'go'
+
+// Create a branch
+Create a branch on ui of github or bitbucket 
+git fetch && git checkout /* name of branch */
+git add.
+git commit -m "adding a chage from the feature branch"
+git push origin /* name of branch */
+

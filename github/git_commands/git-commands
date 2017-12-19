@@ -50,6 +50,23 @@ cd where you want the project to go to
 git clone /* Paste Repository URL path */
 git status
 
+// Work on an another persons repository
+cd to directory you want to push to
+git clone /* persons repository */
+cd to just cloned directory
+git status
+git pull
+git status
+
+// Create a branch
+Create a branch on ui of github or bitbucket 
+git fetch && git checkout /* name of branch */
+git add.
+git commit -m "adding a chage from the feature branch"
+git push origin /* name of branch */
+
+
+
 
 
 
