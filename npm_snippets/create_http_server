@@ -1,0 +1,10 @@
+//Intall http-server
+npm install http-server -g
+
+//Run http-server
+cd to working directory
+http-server
+
+
+
+
