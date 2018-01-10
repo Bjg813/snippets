@@ -1,0 +1,4 @@
+// in terminal
+brew update
+brew upgrade node
+npm install -g npm
