@@ -6,5 +6,9 @@ git --global = can access, add, and change globally on your computer
 
 git log -p = will show the lines that were added in each file
 
-git diff = 
+git diff = view differences in files & compare current contents of your files to what's in the staging area
+
+git diff --staged = compare staged changes against previous commit
+
+
 

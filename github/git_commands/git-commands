@@ -4,6 +4,7 @@ esc:wq //escapes out of vi
 cd excisting-project
 git add .
 git status
+git diff --staged
 git commit -m "What you did"
 git push
 git status
@@ -14,6 +15,7 @@ cd existing-project
 git init
 git add --all
 git status
+git diff --staged
 git commit -m "Initial Commit"
 git remote add origin http://<Bitbucket Server URL>/scm/tis/website.git
 git push -u origin master
@@ -22,6 +24,7 @@ git push -u origin master
 git rm -r --cached .
 git add .
 git status
+git diff --staged
 git push 
 git commit -m "Add a comment"
 git status
