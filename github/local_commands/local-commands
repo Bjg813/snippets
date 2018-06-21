@@ -6,3 +6,9 @@ cd /* directory you want to move file into */
 pwd /* Print the directory you are in/Copy file path */
 cd /* Files you want to move */
 mv /* file or . */ /* Copied file path */ 
+
+
+// Show all files including hidden ones
+ls -a 
+
+

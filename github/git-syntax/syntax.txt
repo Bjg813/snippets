@@ -1,0 +1,10 @@
+/////////////// Git Syntax ///////////////
+
+git config = configure user.email and user.name
+
+git --global = can access, add, and change globally on your computer
+
+git log -p = will show the lines that were added in each file
+
+git diff = 
+
