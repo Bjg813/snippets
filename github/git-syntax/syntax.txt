@@ -1,30 +1,34 @@
 /////////////// Git Syntax ///////////////
 
-///// configure user.email and user.name ////
+// configure user.email and user.name 
 git config
 
 
-//// access, add, and change globally on your computer ////
+// access, add, and change globally on your computer 
 git --global
-
-
-//// show lines that were added in each file ////
+// show lines that were added in each file 
 git log -p 
 
 
-//// view differences in files & compare current contents to staging area ////
+// view differences in files & compare current contents to staging area 
 git diff 
 
 
-//// compare staged changes against previous commit ////
+// compare staged changes against previous commit 
 git diff --staged 
 
 
-////  delete file ////
+// delete file 
 git rm
 
-//// move or rename a file ////
+// move or rename a file 
 git mv <source> <destination>
+
+// undo modification to a file
+git checkout -- /* file name */
+
+// bring back deleted file
+git checkout -- /* file name */
 
 
 
