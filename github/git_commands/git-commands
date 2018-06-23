@@ -89,6 +89,19 @@ git diff
 git reset HEAD /* name of file */
 git status
 
+// Undo modifications of file (rewind file from modified state to last commited state)
+git status
+git diff
+git checkout -- /* file name */
+git diff
+git status
+
+
+
+
+
+
+
 
 
 
