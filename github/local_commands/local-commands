@@ -11,4 +11,9 @@ mv /* file or . */ /* Copied file path */
 // Show all files including hidden ones
 ls -a 
 
+// Remove files from diretory
+rm
+
+
+
 

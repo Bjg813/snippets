@@ -68,6 +68,28 @@ git add.
 git commit -m "adding a chage from the feature branch"
 git push origin /* name of branch */
 
+// Delete a file
+git status
+git rm /* file or directory name */
+git status
+git diff --staged
+git commit -m "Remove ...."
+git status
+
+// Move or rename a file 
+git status
+git mv <source> <destination>
+git status
+git commit -m "Moved or Renamed ..."
+git status
+
+// Undo an action
+git status
+git diff
+git reset HEAD /* name of file */
+git status
+
+
 
 
 

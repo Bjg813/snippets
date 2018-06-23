@@ -1,14 +1,31 @@
 /////////////// Git Syntax ///////////////
 
-git config = configure user.email and user.name
+///// configure user.email and user.name ////
+git config
 
-git --global = can access, add, and change globally on your computer
 
-git log -p = will show the lines that were added in each file
+//// access, add, and change globally on your computer ////
+git --global
 
-git diff = view differences in files & compare current contents of your files to what's in the staging area
 
-git diff --staged = compare staged changes against previous commit
+//// show lines that were added in each file ////
+git log -p 
+
+
+//// view differences in files & compare current contents to staging area ////
+git diff 
+
+
+//// compare staged changes against previous commit ////
+git diff --staged 
+
+
+////  delete file ////
+git rm
+
+//// move or rename a file ////
+git mv <source> <destination>
+
 
 
 
