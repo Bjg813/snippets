@@ -76,6 +76,13 @@ git diff --staged
 git commit -m "Remove ...."
 git status
 
+// Bring back file after being deleted
+git status
+git reset HEAD /* file name */
+git status
+git checkout -- /* file name */
+git status
+
 // Move or rename a file 
 git status
 git mv <source> <destination>
@@ -90,11 +97,16 @@ git reset HEAD /* name of file */
 git status
 
 // Undo modifications of file (rewind file from modified state to last commited state)
-git status
 git diff
+git status
 git checkout -- /* file name */
 git diff
 git status
+
+
+
+
+
 
 
 
