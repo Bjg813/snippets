@@ -20,6 +20,10 @@ git commit -m "Initial Commit"
 git remote add origin http://<Bitbucket Server URL>/scm/tis/website.git
 git push -u origin master
 
+// Push exisiting repository 
+git remote add origin <url of remote repo>
+git push -u origin master
+
 // Remove files from repository
 git rm -r --cached .
 git add .
@@ -128,13 +132,22 @@ git log (see the new commit with new SHA)
 
 
 // Revert most recent commit
-git revert HEAD
-"Edit commit"
+git revert HEAD (opens builtin editor)
+Edit commit
 ctrl + 0 (save file in editor)
 Enter
 ctrl + x (exit editor)
 ls
 git log (see the new commit with new SHA)
+
+// Add remote repo and pull files from remote repo to local repo
+git remote add <name you want local repo to be> <remote repo url>
+git remote (make sure remote repo was added)
+git branch (see current branch name)
+git pull <local repo name> <branch name>
+git log
+git log -p
+
 
 
 

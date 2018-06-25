@@ -45,6 +45,18 @@ git remote (default name for the remote repo is "origin")
 // pull files from remote repo
 git pull <remote repo name if not called "origin">
 
+// see current branch (master is default if there are no other branches in repo)
+git branch
+
+// create local repo and add remote repo to it
+git remote add <name you want local repo to be> <url of remote repo>
+
+// create remote repo
+git remote add origin <url of remote repo>
+
+// push files upstream in repo so you dont have to define the repo on every push
+git push -u origin master
+
 
 
 
