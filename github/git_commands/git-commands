@@ -29,8 +29,20 @@ git push
 git commit -m "Add a comment"
 git status
 
-// Pull from repository
-git pull 
+// Push to remote repo from local repo
+git status
+git diff
+git add .
+git status
+git commit -m "add ..."
+git status
+git push
+
+// Pull from remote repo to local repo
+git remote (shows remote repo name)
+git pull <remote repo name> (if not origin)
+git log
+
 
 // Abort: "Please commit your changes or stash them before you merge."
 git reset --hard

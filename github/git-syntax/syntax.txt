@@ -39,6 +39,12 @@ git revert
 // revert most recent commit
 git revert HEAD
 
+// remote repo name in directory
+git remote (default name for the remote repo is "origin")
+
+// pull files from remote repo
+git pull <remote repo name if not called "origin">
+
 
 
 
