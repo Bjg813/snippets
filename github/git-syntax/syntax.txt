@@ -30,6 +30,15 @@ git checkout -- /* file name */
 // bring back deleted file
 git checkout -- /* file name */
 
+// see history of commits unique SHA (Simple Hash Algorithm) checksum number
+git log 
+
+// revert existing commit
+git revert
+
+// revert most recent commit
+git revert HEAD
+
 
 
 

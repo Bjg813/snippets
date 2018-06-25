@@ -103,6 +103,30 @@ git checkout -- /* file name */
 git diff
 git status
 
+// Revert exisiting commit
+git log 
+Copy commit SHA checksum number 
+git revert /* copied SHA */ (This will make a new commit and open the built in editor)
+Edit the commit message in editor
+ctrl + o (save file in editor)
+Enter
+ctrl + x (exit editor)
+ls
+git log (see the new commit with new SHA)
+
+
+// Revert most recent commit
+git revert HEAD
+"Edit commit"
+ctrl + 0 (save file in editor)
+Enter
+ctrl + x (exit editor)
+ls
+git log (see the new commit with new SHA)
+
+
+
+
 
 
 
