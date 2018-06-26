@@ -1,11 +1,14 @@
 /////////////// Git Syntax ///////////////
 
 // configure user.email and user.name 
-git config
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
 
 
 // access, add, and change globally on your computer 
 git --global
+
+
 // show lines that were added in each file 
 git log -p 
 
@@ -59,6 +62,9 @@ git push -u origin master
 
 // write in README.md file
 nano README
+
+// commit all modified changes without having to add files to be staged
+git commit -a -m "add ..."
 
 
 
