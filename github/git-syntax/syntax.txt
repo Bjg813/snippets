@@ -57,6 +57,9 @@ git remote add origin <url of remote repo>
 // push files upstream in repo so you dont have to define the repo on every push
 git push -u origin master
 
+// write in README.md file
+nano README
+
 
 
 
