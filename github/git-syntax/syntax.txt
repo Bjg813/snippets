@@ -66,6 +66,10 @@ nano README
 // commit all modified changes without having to add files to be staged
 git commit -a -m "add ..."
 
+// create a file
+touch file1
+touch file2
+
 
 
 
