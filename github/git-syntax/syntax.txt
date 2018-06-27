@@ -33,8 +33,14 @@ git checkout -- /* file name */
 // bring back deleted file
 git checkout -- /* file name */
 
-// see history of commits unique SHA (Simple Hash Algorithm) checksum number
+// view history of commits unique SHA (Simple Hash Algorithm) checksum number
 git log 
+
+// view the most recent commit
+git checkout HEAD
+
+// view previous commit (not the one we just made, but the one before that)
+git checkout HEAD~1
 
 // revert existing commit
 git revert
