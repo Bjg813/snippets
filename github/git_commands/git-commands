@@ -78,11 +78,37 @@ git pull
 git status
 
 // Create a branch
-Create a branch on ui of github or bitbucket 
-git fetch && git checkout /* name of branch */
-git add.
-git commit -m "adding a chage from the feature branch"
-git push origin /* name of branch */
+git branch 
+git checkout -b <write name of branch you want to create>
+git branch 
+
+// Delete a branch
+git branch
+git checkout master
+git branch -D <branch name you want to delete>
+git branch
+
+// Merge branch to master
+git branch
+git checkout master
+git merge <name of branch you want to merge>
+git branch
+git log
+git branch -D <name of branch just merged if you want to delete it>
+git branch
+
+// Resolve merge conflicts
+git branch
+git checkout master
+ls
+cd /* file or directory */
+code /* file or directory name */
+(either delete or fix merge conflict where notified from git, then save file)
+git status
+git add /* file name */
+git commit -m "resloved merge conflict"
+git merge <branch name you want to merge with conflict>
+git status
 
 // Delete a file
 git status

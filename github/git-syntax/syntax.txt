@@ -1,80 +1,92 @@
 /////////////// Git Syntax ///////////////
 
-// configure user.email and user.name 
+// Configure user.email and user.name 
 git config --global user.name "Your Name"
 git config --global user.email you@example.com
 
-
-// access, add, and change globally on your computer 
+// Access, add, and change globally on your computer 
 git --global
 
-
-// show lines that were added in each file 
+// Show lines that were added in each file 
 git log -p 
 
-
-// view differences in files & compare current contents to staging area 
+// View differences in files & compare current contents to staging area 
 git diff 
 
-
-// compare staged changes against previous commit 
+// Compare staged changes against previous commit 
 git diff --staged 
 
-
-// delete file 
+// Delete file 
 git rm
 
-// move or rename a file 
+// Move or rename a file 
 git mv <source> <destination>
 
-// undo modification to a file
+// Undo modification to a file
 git checkout -- /* file name */
 
-// bring back deleted file
+// Bring back deleted file
 git checkout -- /* file name */
 
-// view history of commits unique SHA (Simple Hash Algorithm) checksum number
+// View history of commits unique SHA (Simple Hash Algorithm) checksum number
 git log 
 
-// view the most recent commit
+// View the most recent commit
 git checkout HEAD
 
-// view previous commit (not the one we just made, but the one before that)
+// View previous commit (not the one we just made, but the one before that)
 git checkout HEAD~1
 
-// revert existing commit
+// Revert existing commit
 git revert
 
-// revert most recent commit
+// Revert most recent commit
 git revert HEAD
 
-// remote repo name in directory
+// Remote repo name in directory
 git remote (default name for the remote repo is "origin")
 
-// pull files from remote repo
+// Pull files from remote repo
 git pull <remote repo name if not called "origin">
 
-// see current branch (master is default if there are no other branches in repo)
+// See current branch (master is default if there are no other branches in repo)
 git branch
 
-// create local repo and add remote repo to it
+// Create local repo and add remote repo to it
 git remote add <name you want local repo to be> <url of remote repo>
 
-// create remote repo
+// Create remote repo
 git remote add origin <url of remote repo>
 
-// push files upstream in repo so you dont have to define the repo on every push
+// Push files upstream in repo so you dont have to define the repo on every push
 git push -u origin master
 
-// write in README.md file
+// Write in README.md file
 nano README
 
-// commit all modified changes without having to add files to be staged
+// Commit all modified changes without having to add files to be staged
 git commit -a -m "add ..."
 
-// create a file
-touch file1
-touch file2
+// Create a file
+touch <name of file you want to create>
+
+// View what branch you are on and a list of all the available branches
+git branch
+
+// Create a new branch
+git branch <name of branch you want to create>
+
+// Switch branches
+git checkout <branch name>
+
+// Create a branch then switch to it in one line
+git checkout -b <name of branch you want to create>
+
+// Delete a branch
+git branch -D <branch name you want to delete>
+
+// Merge a branch 
+git merge <branch name you want to merge with>
 
 
 
