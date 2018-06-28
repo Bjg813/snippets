@@ -1,0 +1,31 @@
+// Initialize git flow in repository
+git branch integration
+git flow init
+
+// Branch name for production release?
+master
+
+// Branch name for "next release" development
+integration
+
+// Name your supporting branch prefixes
+(Go with all of the default names and hint enter on all of them)
+
+// Version tag prefix
+(leave it blank)
+
+// To start git-flow
+git flow feature start feature_name
+
+// To stop git-flow
+git flow feature finish feature_name
+
+// Use hotfix to quickly fix something like a bug
+git flow hotfix start <name you want to give to hotfix branch>
+
+// Stop hotfix 
+git flow hotfix finish <name you gave to hotfix branch>
+(git-flow will open up a vim edit screen.  Write in a message saying finished with bug or whatever you just did, then hit esc followed by :(colon).  This will bring the cursor down to the bottom of the terminal.  To save the message type w (:w).  Then to quit type q (:q) this will save and close out of vim)
+
+
+
