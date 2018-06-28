@@ -58,6 +58,9 @@ git remote add <name you want local repo to be> <url of remote repo>
 // Create remote repo
 git remote add origin <url of remote repo>
 
+// Add my copy of the repository as a remote
+git remote add <name of remote> <url of remote repo>
+
 // Push files upstream in repo so you dont have to define the repo on every push
 git push -u origin master
 
