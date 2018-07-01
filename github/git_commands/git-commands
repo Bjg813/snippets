@@ -38,7 +38,7 @@ git status
 git diff
 git add .
 git status
-git commit -m "add ..."
+git commit -m "Add a comment"
 git status
 git push
 
@@ -115,7 +115,7 @@ git status
 git rm /* file or directory name */
 git status
 git diff --staged
-git commit -m "Remove ...."
+git commit -m "Add a Comment"
 git status
 
 // Bring back file after being deleted
@@ -180,7 +180,7 @@ git checkout <branch name>
 git branch
 git remote
 git status
-git commit -a -m "add ..."
+git commit -a -m "Add a comment"
 git push -u origin <branch name>
 git status
 
