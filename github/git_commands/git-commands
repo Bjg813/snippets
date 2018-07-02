@@ -187,6 +187,22 @@ git status
 // Pull request and merge branch from github
 To open a pull request, you must first have a branch with changes on it, that you can propose to be added to another branch.  Merge pull request button witll add changes back into the master branch.
 
+// Pull request
+git checkout -b <name of branch>
+git branch
+ls
+code .
+"make changes to code"
+git commit -a -m "Add a comment"
+git push --set-upstream origin <name of branch>
+Open up github and go to repository 
+Open new pull request
+View change of code
+Add comment where necessary
+Approve code 
+Merge branch to master
+Delete branch
+
 
 
 
