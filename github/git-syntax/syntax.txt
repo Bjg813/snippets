@@ -68,7 +68,7 @@ git push -u origin master
 nano README
 
 // Commit all modified changes without having to add files to be staged
-git commit -a -m "add ..."
+git commit -a -m "Add a Comment"
 
 // Create a file
 touch <name of file you want to create>
@@ -90,6 +90,12 @@ git branch -D <branch name you want to delete>
 
 // Merge a branch 
 git merge <branch name you want to merge with>
+
+// View all branches
+git branch -a 
+
+// Download objects and refs from another repository
+git fetch
 
 
 
