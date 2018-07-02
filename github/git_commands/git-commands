@@ -196,12 +196,27 @@ code .
 git commit -a -m "Add a comment"
 git push --set-upstream origin <name of branch>
 Open up github and go to repository 
-Open new pull request
-View change of code
-Add comment where necessary
-Approve code 
-Merge branch to master
-Delete branch
+Click "Compare & pull request" green button
+Scroll down to view the change in code
+Add a comment if necessary
+Hit "Create Pull Request" green button
+Go to "Files Changed" in menu
+Leave a comment on any line of code if necessary
+Click "Review Changes" green button on top right
+Leave a Comment, Approve, or Request Changes
+Click "Submit Review"
+Redirects to "Conversations" tab
+Click "Merge pull request" green button
+Click "Confirm merge" green button
+Pull request successful
+Click "Delete branch" gray button
+Go to Terminal
+git branch
+git checkout master
+git branch
+git branch -D <feature branch name>
+git branch
+git pull
 
 
 
