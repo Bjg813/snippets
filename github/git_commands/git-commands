@@ -184,7 +184,10 @@ git commit -a -m "Add a comment"
 git push -u origin <branch name>
 git status
 
-// Added this to try a pull request
+// Pull request and merge branch from github
+To open a pull request, you must first have a branch with changes on it, that you can propose to be added to another branch.  Merge pull request button witll add changes back into the master branch.
+
+
 
 
 
