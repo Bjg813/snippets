@@ -156,7 +156,6 @@ ctrl + x (exit editor)
 ls
 git log (see the new commit with new SHA)
 
-
 // Revert most recent commit
 git revert HEAD (opens builtin editor)
 Edit commit
